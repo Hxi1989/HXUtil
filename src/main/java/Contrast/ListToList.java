@@ -66,7 +66,7 @@ public class ListToList {
         for(int i = 0 ; i < listTwo.size() ; i++){
             setOne.add(listTwo.get(i));
             if(setOne.size() == setOneSize ){  //判断大小是否改变 ，改变表示数据缺失，没改变表示数相同。
-                listEqual.add(listTwo.get(i)); //存放缺失了哪些数据
+                listEqual.add(listTwo.get(i)); //存放重复了哪些数据
                 setOneSize = setOne.size(); //更新基础集合大小
             }
         }
