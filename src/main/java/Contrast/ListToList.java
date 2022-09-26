@@ -45,8 +45,11 @@ public class ListToList {
         List lls = ltl.ltldef(listOne,listTwo);
         System.out.println(lls);
 
-        List llss = ltl.ltldef(listTwo,ll);
+        List llss = ltl.ltldef(listOne,ll);
         System.out.println(llss);
+
+        List llnull = new ArrayList();
+        System.out.println(ltl.ltldef(listOne,llnull));
 
 
     }
