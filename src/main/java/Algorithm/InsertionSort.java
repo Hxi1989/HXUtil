@@ -30,7 +30,7 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        int[] num = {1,22,44,66,88,99,35,75};
+        int[] num = {99,35,75,1};
         System.out.println(Arrays.toString(num));
         Long l1 = System.currentTimeMillis();
 //        System.out.println(l1);
