@@ -17,14 +17,18 @@ public class TestOne {
 //        Long l = Long.valueOf(ss.split(",").length);
 //        System.out.println(l);
 
-        List l = new ArrayList();
-        l.add("a");
-        l.add("b");
-        l.add("c");
+//        List l = new ArrayList();
+//        l.add("a");
+//        l.add("b");
+//        l.add("c");
+//
+//        System.out.println(String.join(",",l));
+//
+//        String a = List.of(l.toString()).get(0);
+//        System.out.println(a);
 
-        System.out.println(String.join(",",l));
+        String s = "https://cdn-oss.zhcs.csbtv.com/zhcs-prd/images/2023-03-15/1085614520266788864.png?AWSAccessKeyId=8KAYAUHQZLCLW5CUIA6J&Expires=1678958871&Signature=t0waZCwiGkjTMgEx7tpMW%2BwiGJU%3D";
 
-        String a = List.of(l.toString()).get(0);
-        System.out.println(a);
+        System.out.println(s.substring(0,s.indexOf("?")));
     }
 }
