@@ -27,7 +27,7 @@ public class TestOne {
 //        String a = List.of(l.toString()).get(0);
 //        System.out.println(a);
 
-        String s = "https://cdn-oss.zhcs.csbtv.com/zhcs-prd/images/2023-03-15/1085614520266788864.png?AWSAccessKeyId=8KAYAUHQZLCLW5CUIA6J&Expires=1678958871&Signature=t0waZCwiGkjTMgEx7tpMW%2BwiGJU%3D";
+        String s = "https://a/a-prd/images/2023-03-15/a.png?AWSAccessKeyId=a&Expires=a&Signature=a%2BwiGJU%3D";
 
         System.out.println(s.substring(0,s.indexOf("?")));
     }
