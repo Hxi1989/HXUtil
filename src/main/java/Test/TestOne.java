@@ -1,6 +1,7 @@
 package Test;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -27,8 +28,15 @@ public class TestOne {
 //        String a = List.of(l.toString()).get(0);
 //        System.out.println(a);
 
-        String s = "https://a/a-prd/images/2023-03-15/a.png?AWSAccessKeyId=a&Expires=a&Signature=a%2BwiGJU%3D";
+//        String s = "https://a/a-prd/images/2023-03-15/a.png?AWSAccessKeyId=a&Expires=a&Signature=a%2BwiGJU%3D";
+//
+//        System.out.println(s.substring(0,s.indexOf("?")));
 
-        System.out.println(s.substring(0,s.indexOf("?")));
+//        Date a = new Date(2023,4,1);
+//        Date b = new Date();
+//        Date c = new Date();
+//
+//        System.out.println(a.toString()+"\n"+b.toString()+"\n"+a.before(b));
+
     }
 }
