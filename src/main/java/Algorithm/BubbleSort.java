@@ -11,6 +11,8 @@ public class BubbleSort {
 
     /**
      * 冒泡排序 学习用
+     * 最佳情况：T(n) = O(n)   最差情况：T(n) = O(n2)   平均情况：T(n) = O(n2)
+     *
      * @param array
      * @return
      */

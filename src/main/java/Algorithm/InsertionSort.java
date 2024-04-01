@@ -10,6 +10,7 @@ import java.util.Arrays;
 public class InsertionSort {
     /**
      * 插入排序
+     * 最佳情况：T(n) = O(n)   最坏情况：T(n) = O(n2)   平均情况：T(n) = O(n2)
      * @param array
      * @return
      */

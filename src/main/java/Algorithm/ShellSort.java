@@ -10,6 +10,7 @@ import java.util.Arrays;
 public class ShellSort {
     /**
      * 希尔排序
+     *最佳情况：T(n) = O(nlog2 n)  最坏情况：T(n) = O(nlog2 n)  平均情况：T(n) =O(nlog2n)
      *
      * @param array
      * @return

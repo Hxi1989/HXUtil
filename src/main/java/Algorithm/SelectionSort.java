@@ -11,6 +11,8 @@ public class SelectionSort {
 
     /**
      * 选择排序：找到最小或者最大，替换当前啊循环的位置，列表以此循环。
+     *
+     * 最佳情况：T(n) = O(n2)  最差情况：T(n) = O(n2)  平均情况：T(n) = O(n2)
      * @param array
      * @return
      */

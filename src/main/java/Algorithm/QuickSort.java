@@ -11,6 +11,7 @@ public class QuickSort {
 
     /**
      * 快速排序方法
+     * 最佳情况：T(n) = O(nlogn)   最差情况：T(n) = O(n2)   平均情况：T(n) = O(nlogn)
      * @param array
      * @param start
      * @param end

@@ -10,6 +10,7 @@ public class HeapSort {
     static int len;
     /**
      * 堆排序算法
+     * 最佳情况：T(n) = O(nlogn) 最差情况：T(n) = O(nlogn) 平均情况：T(n) = O(nlogn)
      *
      * @param array
      * @return

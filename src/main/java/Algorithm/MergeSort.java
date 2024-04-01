@@ -10,6 +10,7 @@ import java.util.Arrays;
 public class MergeSort {
     /**
      * 归并排序
+     * 最佳情况：T(n) = O(n)  最差情况：T(n) = O(nlogn)  平均情况：T(n) = O(nlogn)
      *
      * @param array
      * @return
