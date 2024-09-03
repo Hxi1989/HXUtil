@@ -39,12 +39,16 @@ public class TestOne {
 //
 //        System.out.println(a.toString()+"\n"+b.toString()+"\n"+a.before(b));
 
-        String s = "1234";
+        /*String s = "1234";
         char a = (char) (97+ new Random().nextInt(25));
         char b = (char) (97+ new Random().nextInt(25));
         char c = (char) (65+ new Random().nextInt(25));
         char d = (char) (65+ new Random().nextInt(25));
         System.out.println(a+b);
-        System.out.println(""+a+c+s+b+d);
+        System.out.println(""+a+c+s+b+d);*/
+
+        long l = 1, r = 1 << 3;
+        System.out.println(l+":"+r);
+
     }
 }
