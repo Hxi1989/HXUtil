@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 public class SSQSmartPicker {
 
-    private static final String HISTORY_CSV = "D:\\CODE\\HXSC\\HXUtil\\src\\main\\resources\\ssq_history.csv";
+    private static final String HISTORY_CSV = ".csv";
     private static final int RED_COUNT = 6;
     private static final int BLUE_MAX = 16;
 

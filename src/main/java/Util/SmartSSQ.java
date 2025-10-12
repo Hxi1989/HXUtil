@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class SmartSSQ {
 
     public static void main(String[] args) {
-        String filePath = "D:\\CODE\\HXSC\\HXUtil\\src\\main\\resources\\ssq_history.csv"; // 历史数据文件（同目录）
+        String filePath = "ssq_history.csv"; // 历史数据文件（同目录）
         List<int[]> redRecords = new ArrayList<>();
         List<Integer> blueRecords = new ArrayList<>();
 
